@@ -678,6 +678,11 @@ public class MaterialShowcaseView extends FrameLayout implements View.OnTouchLis
             return this;
         }
 
+        public Builder setTarget(Target target) {
+            showcaseView.setTarget(target);
+            return this;
+        }
+
         public Builder setSequence(Boolean isSequence) {
             showcaseView.setIsSequence(isSequence);
             return this;
