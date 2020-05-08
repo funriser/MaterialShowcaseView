@@ -944,6 +944,8 @@ public class MaterialShowcaseView extends FrameLayout implements View.OnTouchLis
             ((ViewGroup) getParent()).removeView(this);
         }
 
+        mTarget = null;
+
         if (mBitmap != null) {
             mBitmap.recycle();
             mBitmap = null;
